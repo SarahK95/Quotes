@@ -1,6 +1,6 @@
-<div >
+<div class="case">
     <h1>Quotes</h1>
-    <!-- <img src="assets/images/desert-6943430.jpg"> -->
+    <!-- <img src="assets/images/dog-7092595.jpg"> -->
 </div>
 
 <div class="container">
@@ -10,7 +10,7 @@
             <hr>
             <div *ngFor='let quote of quotes;let i = index'>
                 <li>{{quote.quote}}</li>
-                <button (click)='toggleDetails(i)'>Toggle Details</button>
+                <button (click)='toggleDetails(i)' class="btn btn-primary">Show Author</button>
                 <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote'></app-quote-detail>
                 <hr>
 
@@ -19,6 +19,9 @@
         </div>
     </div>
     
-  
+  <div class="col-md-6">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+
+  </div>
    
 </div>

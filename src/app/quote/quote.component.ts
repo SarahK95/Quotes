@@ -15,6 +15,12 @@ export class QuoteComponent implements OnInit {
     new Quote('Get busy living or get busy dying.','Stephen King','Dave'),  
   ];
 
+  addNewQuote(quote){
+    this.quotes.push(quote)
+    
+
+  }
+
   toggleDetails(index){
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
   }

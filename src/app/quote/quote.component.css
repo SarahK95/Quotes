@@ -4,3 +4,22 @@
     font-size: 70px;
    
 } */
+.case{
+    background-color:sienna;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.case h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btn{
+    background: #000
+}
+
+.btn:hover{
+    background: sienna;
+}
