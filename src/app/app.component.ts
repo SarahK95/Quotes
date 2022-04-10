@@ -7,12 +7,7 @@ import { Quote } from './quote';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quotes:Quote[] = [
-    {id:1, name:'The purpose of our lives is to be happy.'},
-    {id:2,name:'Life is what happens when you are busy making other plans.'},
-    {id:3,name:'Get busy living or get busy dying.'},
-    
-  ];
+  
 
   
 }

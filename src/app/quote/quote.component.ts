@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quote',
@@ -6,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
+
+  quotes:Quote[] = [
+    {id:1, name:'The purpose of our lives is to be happy.'},
+    {id:2,name:'Life is what happens when you are busy making other plans.'},
+    {id:3,name:'Get busy living or get busy dying.'},
+    
+  ];
 
   constructor() { }
 
