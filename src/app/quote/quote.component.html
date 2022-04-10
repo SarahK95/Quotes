@@ -1,12 +1,24 @@
-<div>
+<div >
     <h1>Quotes</h1>
-    <ul>
-     
-      <div *ngFor='let quote of quotes;let i = index'>
-        <li>{{quote.quote}}</li>
-        <button (click)='toggleDetails(i)'>Show Author</button>
-        <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote'></app-quote-detail>
-      </div>
-    </ul>
+    <!-- <img src="assets/images/desert-6943430.jpg"> -->
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <hr>
+            <div *ngFor='let quote of quotes;let i = index'>
+                <li>{{quote.quote}}</li>
+                <button (click)='toggleDetails(i)'>Toggle Details</button>
+                <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote'></app-quote-detail>
+                <hr>
+
+            </div>
+
+        </div>
+    </div>
+    
+  
    
-  </div>
+</div>
