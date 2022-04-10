@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Quotes';
+  quotes:string[];
+
+  constructor(){
+    this.quotes = ['The purpose of our lives is to be happy', 'Life is what happens when you’re busy making other plans', 'Get busy living or get busy dying']
+  }
 }
