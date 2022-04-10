@@ -16,16 +16,36 @@ export class QuoteComponent implements OnInit {
   ];
 
   addNewQuote(quote){
-    this.quotes.push(quote)
+    this.quotes.push(quote) 
     
 
   }
 
+
   toggleDetails(index){
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
   }
+  votes:number;
 
-  constructor() { }
+  vote = 0;
+
+  constructor() { 
+    this.votes =0;
+
+  }
+  upvote():boolean{
+    this.votes +=1;
+    return false;
+  }
+
+  downvote():boolean{
+    this.votes -=1;
+    return false;
+  }
+  deleteQuote(i){
+    this.quotes.splice(i, 1)
+  }
+
 
   ngOnInit(): void {
   }

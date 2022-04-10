@@ -10,6 +10,8 @@
 export class Quote {
     public showAuthor:boolean;
     public myDate:Date
+    public upvote:Number
+    public downvote:number
 
 
     constructor(public quote:string, public author:string, public name:string){

@@ -12,6 +12,11 @@
                 <li>{{quote.quote}}</li>
                 <button (click)='toggleDetails(i)' class="btn btn-primary">Show Author</button>
                 <app-quote-detail *ngIf='quote.showAuthor' [quote]='quote'></app-quote-detail>
+
+                <!-- <button class="btn btn-primary" (click)="upvote()">Upvote</button>
+                <button class="btn btn-primary" (click)="downvote()">Downvote</button> -->
+                <button class="btn btn-danger" (click)="deleteQuote(i)">Delete</button>
+
                 <hr>
 
             </div>

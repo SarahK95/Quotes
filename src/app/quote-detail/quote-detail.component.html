@@ -12,3 +12,37 @@
  </p>
 
  
+
+ <!-- <p>
+   Upvote: {{quote.upvote}}
+</p>
+
+<p>
+   Downvote: {{quote.downvote}}
+</p> -->
+
+<div class="four wide column center aligned votes">
+   <div class="ui statistic">
+     
+     <div class="value">
+       {{ votes }}
+     </div> 
+     <div class="label">
+       Votes:
+     </div>
+ 
+   </div>
+ 
+ </div>
+
+ <div class="twelve wide column">
+    
+  
+     
+      <button class="btn btn-primary" (click)="upvote()">Upvote</button>
+      <button class="btn btn-primary" (click)="downvote()">Downvote</button>
+
+ </div>
+
+
+ 
