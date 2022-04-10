@@ -9,19 +9,19 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Technologies Used
 The application was build by the following
-*HTML
-*CSS
-*BOOTSTRAP
-*JAVASCRIPT
-*TYPESCRIPT
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
+* TYPESCRIPT
 
 ## User Requirements
 The applications allows users to do the following:
 
-*Create a new quote.
-*Upvote or downvote a quote.
-*Delete a quote
-*See the number of upvotes and number of downvotes for each quote.
+* Create a new quote.
+* Upvote or downvote a quote.
+* Delete a quote
+* See the number of upvotes and number of downvotes for each quote.
 
 ## Code scaffolding
 
