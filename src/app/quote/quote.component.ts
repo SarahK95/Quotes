@@ -15,6 +15,10 @@ export class QuoteComponent implements OnInit {
     new Quote('Get busy living or get busy dying.','Stephen King','Dave'),  
   ];
 
+  toggleDetails(index){
+    this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
+  }
+
   constructor() { }
 
   ngOnInit(): void {
