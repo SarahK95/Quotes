@@ -9,7 +9,7 @@
 // }
 export class Quote {
     public showAuthor:boolean;
-    constructor(public quote:string, public author:string, public name:string,){
+    constructor(public quote:string, public author:string, public name:string, public completeDate: Date){
         this.showAuthor=false
     }
 }
