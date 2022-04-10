@@ -1,8 +1,9 @@
 # Quotes
 
 Quotes is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+
 A user can add a quote(s) and other users can see it and either like it (upvote) or unlike(downvote). A quote can also be deleted by a user who added it.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
 ## Development server
 
