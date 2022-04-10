@@ -9,9 +9,10 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    {id:1, name:'The purpose of our lives is to be happy.'},
-    {id:2,name:'Life is what happens when you are busy making other plans.'},
-    {id:3,name:'Get busy living or get busy dying.'},
+    {name:'Sarah', author:'Dalai Lama',quote:'The purpose of our lives is to be happy'},
+    {name:'Caro', author:'John Lennon',quote:'Life is what happens when you are busy making other plans'},
+    {name:'Dave', author:'Stephen King',quote:'Get busy living or get busy dying.'},
+      
     
   ];
 
